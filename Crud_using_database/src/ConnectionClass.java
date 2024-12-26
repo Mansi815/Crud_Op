@@ -10,7 +10,7 @@ public class ConnectionClass {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/employee_c"; // Update as per your setup
         String user = "root"; // Your MySQL username
-        String password = "Mansi@0304"; // Your MySQL password
+        String password = "password"; // Your MySQL password
 
         // Establish and return the connection
         return DriverManager.getConnection(url, user, password);
